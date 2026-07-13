@@ -1,3 +1,3 @@
-# Atlas de l'État français — V1
+# Atlas de l'État français — V2.1
 
-Créer un dépôt `atlas-etat-france`, copier tous les fichiers, puis déployer `app.py` sur Streamlit.
+100 organismes, recherche, fiches et cartographie.
