@@ -21,13 +21,18 @@ def load_data():
         pd.read_csv(BASE/"historique_financier.csv"),
         pd.read_csv(BASE/"dictionnaire_donnees.csv"),
         pd.read_csv(BASE/"journal_versions.csv"),
+        pd.read_csv(BASE/"personnes.csv"),
+        pd.read_csv(BASE/"mandats.csv"),
+        pd.read_csv(BASE/"organes_gouvernance.csv"),
+        pd.read_csv(BASE/"alertes.csv"),
+        pd.read_csv(BASE/"indicateurs_synthese.csv"),
         pd.read_csv(BASE/"sources.csv"),
     )
 
-entites, fiches, chronologie, rapports, relations, qualite, documents, backlog, historique_financier, dictionnaire, journal_versions, sources = load_data()
+entites, fiches, chronologie, rapports, relations, qualite, documents, backlog, historique_financier, dictionnaire, journal_versions, personnes, mandats, organes, alertes, synthese, sources = load_data()
 
 st.title("Atlas de l'État français")
-st.caption("V2.7 · Comparateur, exports et socle documentaire consolidé")
+st.caption("V3.0 · Atlas consolidé : institutions, personnes, finances, gouvernance et alertes")
 
 with st.sidebar:
     categories = st.multiselect("Catégories", sorted(entites.categorie.unique()), default=sorted(entites.categorie.unique()))
@@ -59,7 +64,14 @@ b.metric("Fiches enrichies", len(fiches))
 c.metric("Documents officiels", len(documents))
 d.metric("Complétude moyenne", f"{qualite.completude_pct.mean():.1f} %")
 
-tabs = st.tabs(["Annuaire","Fiche","Documents","Relations","Chronologie","Rapports","Complétude","Historique financier","Comparer","Plan d'enrichissement","Dictionnaire","Sources"])
+st.subheader("Vue d'ensemble")
+overview_cols = st.columns(3)
+overview_cols[0].metric("Alertes ouvertes", len(alertes))
+overview_cols[1].metric("Mandats recensés", len(mandats))
+overview_cols[2].metric("Organes de gouvernance", len(organes))
+
+
+tabs = st.tabs(["Annuaire","Fiche","Documents","Relations","Chronologie","Rapports","Complétude","Historique financier","Comparer","Personnes et mandats","Organes de gouvernance","Alertes","Plan d'enrichissement","Dictionnaire","Sources"])
 
 with tabs[0]:
     st.dataframe(vue[["nom","categorie","domaine","tutelle","dirigeant","niveau_fiche","statut_donnee"]], width="stretch", hide_index=True)
@@ -147,10 +159,37 @@ with tabs[8]:
                                labels={"completude_pct":"Complétude (%)","nom":""}), width="stretch")
 
 with tabs[9]:
+    names = entites.set_index("entity_id")["nom"].to_dict()
+    persons = personnes.copy()
+    md = mandats.copy()
+    md["organisme"] = md.entity_id.map(names)
+    st.subheader("Personnes")
+    st.dataframe(persons, width="stretch", hide_index=True)
+    st.subheader("Mandats")
+    st.dataframe(md[["person_id","organisme","fonction","debut_mandat","fin_mandat","mode_nomination","statut_mandat","source_url"]], width="stretch", hide_index=True)
+
+with tabs[10]:
+    names = entites.set_index("entity_id")["nom"].to_dict()
+    og = organes.copy()
+    og["organisme"] = og.entity_id.map(names)
+    st.dataframe(og[["organisme","nom_organe","type_organe","composition_resumee","role","statut","source_url"]], width="stretch", hide_index=True)
+
+with tabs[11]:
+    names = entites.set_index("entity_id")["nom"].to_dict()
+    al = alertes.copy()
+    if not al.empty:
+        al["organisme"] = al.entity_id.map(names)
+        st.dataframe(al[["organisme","type_alerte","detail","priorite"]], width="stretch", hide_index=True)
+        st.plotly_chart(px.bar(al.groupby("priorite",as_index=False).size(), x="priorite", y="size", text="size",
+                               labels={"priorite":"","size":"Nombre d'alertes"}), width="stretch")
+    else:
+        st.success("Aucune alerte ouverte.")
+
+with tabs[12]:
     st.dataframe(backlog, width="stretch", hide_index=True)
     st.caption("Le score sert uniquement à ordonner les prochaines collectes de données.")
 
-with tabs[10]:
+with tabs[13]:
     st.subheader("Dictionnaire des données")
     st.dataframe(dictionnaire, width="stretch", hide_index=True)
     st.subheader("Journal des versions")
@@ -158,5 +197,5 @@ with tabs[10]:
     st.download_button("Exporter l'annuaire consolidé", entites.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_entites_v2_7.csv", "text/csv")
     st.download_button("Exporter les fiches détaillées", fiches.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_fiches_v2_7.csv", "text/csv")
 
-with tabs[11]:
+with tabs[14]:
     st.dataframe(sources, width="stretch", hide_index=True)

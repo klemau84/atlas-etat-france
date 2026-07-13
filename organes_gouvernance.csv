@@ -1,0 +1,11 @@
+﻿organe_id,nom_organe,entity_id,type_organe,composition_resumee,role,statut,source_url
+organe_001,Collège de la CNIL,cnil,Collège décisionnel,18 membres,"Décisions, délibérations et orientations",Actif,https://www.cnil.fr/fr/fonctionnement/statut-et-organisation-de-la-cnil
+organe_002,Formation restreinte de la CNIL,cnil,Formation de sanction,Membres distincts du collège,Prononce les sanctions,Actif,https://www.cnil.fr/fr/fonctionnement/statut-et-organisation-de-la-cnil
+organe_003,Collège de l'Arcom,arcom,Collège décisionnel,Membres nommés selon la loi,Régulation audiovisuelle et numérique,Actif,https://www.arcom.fr/nous-connaitre/notre-institution
+organe_004,Collège de l'Arcep,arcep,Collège décisionnel,7 membres,"Régulation des télécoms, postes et presse",Actif,https://www.arcep.fr/larcep/organisation/le-college.html
+organe_005,Collège de la HATVP,hatvp,Collège décisionnel,Membres indépendants,Contrôle déontologique,Actif,https://www.hatvp.fr/la-haute-autorite/linstitution/organisation/
+organe_006,Collège de la HAS,has,Collège décisionnel,9 membres,Pilotage de la Haute Autorité,Actif,https://www.has-sante.fr/jcms/c_412227/fr/organisation-de-la-has
+organe_007,Commission des sanctions de l'AMF,amf,Commission de sanction,Membres spécialisés,Sanctions financières,Actif,https://www.amf-france.org/fr/lamf/notre-organisation
+organe_008,Conseil d'administration de l'ADEME,ademe,Conseil d'administration,Représentants de l'État et personnalités qualifiées,Gouvernance de l'établissement,Actif,https://www.ademe.fr/lademe/organisation/
+organe_009,Conseil d'administration de France Travail,france_travail,Conseil d'administration,Représentants de l'État et partenaires sociaux,Gouvernance du service public de l'emploi,Actif,https://www.francetravail.org/
+organe_010,Conseil scientifique de Santé publique France,sante_publique_france,Conseil scientifique,Experts,Avis scientifiques,Actif,https://www.santepubliquefrance.fr/a-propos/organisation

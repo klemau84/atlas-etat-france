@@ -1,0 +1,13 @@
+﻿person_id,entity_id,fonction,debut_mandat,fin_mandat,mode_nomination,statut_mandat,source_url
+person_001,cnil,Présidente,2019,,Désignée par le président de la République parmi les membres du collège,En cours ou à vérifier,https://www.cnil.fr/fr/fonctionnement/statut-et-organisation-de-la-cnil
+person_002,hatvp,Président,2024,,Nommé selon les dispositions de la loi du 11 octobre 2013,En cours ou à vérifier,https://www.hatvp.fr/rapports_activite/rapport_2024/
+person_003,cour_comptes,Première présidente,2026-02-23,,Nommée par le président de la République en Conseil des ministres,En cours ou à vérifier,https://www.ccomptes.fr/fr/communiques-presse/prise-de-fonctions-damelie-de-montchalin-la-premiere-presidence-de-la-cour-des
+person_004,cnrs,Président-directeur général,2026-06-10,,Nommé par le président de la République sur proposition du ministre chargé de la Recherche,En cours ou à vérifier,https://www.cnrs.fr/fr/presse/thierry-dauxois-est-nomme-president-directeur-general-du-cnrs
+person_005,france_travail,Directeur général,2023-12,,Nommé en Conseil des ministres,En cours ou à vérifier,https://www.francetravail.org/accueil/communiques/thibaut-guilluy-succede-a-jean-basseres-a-la-direction-generale-de-pole-emploi-aujourdhui-france-travail.html
+person_006,meteo,Présidente-directrice générale,2019,,Nommée par décret,En cours ou à vérifier,https://meteofrance.fr/etablissement/organisation/lorganigramme-de-meteo-france
+person_007,arcep,Présidente,2021,,Nommée par le président de la République après procédure parlementaire,En cours ou à vérifier,https://www.arcep.fr/larcep/organisation/le-college.html
+person_008,arcom,Président,2025,,Nommé par le président de la République après avis des commissions parlementaires,En cours ou à vérifier,https://www.arcom.fr/nous-connaitre/notre-institution
+person_009,amf,Présidente,2022,,Nommée par décret du président de la République,En cours ou à vérifier,https://www.amf-france.org/fr/lamf/notre-organisation
+person_010,ademe,Président-directeur général,2022,,Nommé par décret,En cours ou à vérifier,https://www.ademe.fr/lademe/organisation/
+person_011,insee,Directeur général,2025,,Nommé en Conseil des ministres,En cours ou à vérifier,https://www.insee.fr/fr/information/1892139
+person_012,anssi,Directeur général,2023,,Nommé par décret,En cours ou à vérifier,https://cyber.gouv.fr/nous-connaitre/lagence/organisation/direction-generale/

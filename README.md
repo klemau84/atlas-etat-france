@@ -1,3 +1,3 @@
-# Atlas de l'État français — V2.7
+# Atlas de l'État français — V3.0
 
-Version consolidée : 100 organismes, fiches enrichies, relations, rapports, chronologie, documents, historique financier, comparateur et exports.
+Version consolidée : 100 organismes, personnes, mandats, organes de gouvernance, documents, rapports, chronologies, historique financier, comparateur, alertes et exports.

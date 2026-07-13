@@ -1,0 +1,89 @@
+﻿entity_id,type_alerte,detail,priorite
+presidence,Complétude faible,0 %,Haute
+gouvernement,Complétude faible,0 %,Haute
+assemblee,Complétude faible,0 %,Haute
+senat,Complétude faible,0 %,Haute
+conseil_constitutionnel,Complétude faible,0 %,Haute
+conseil_etat,Complétude faible,0 %,Haute
+cour_cassation,Complétude faible,0 %,Haute
+cese,Complétude faible,0 %,Haute
+defenseur,Complétude faible,0 %,Haute
+autorite_concurrence,Complétude faible,0 %,Haute
+commission_sondages,Complétude faible,0 %,Haute
+cndp,Complétude faible,0 %,Haute
+cglpl,Complétude faible,0 %,Haute
+cada,Complétude faible,0 %,Haute
+cnccfp,Complétude faible,0 %,Haute
+cnctr,Complétude faible,0 %,Haute
+anj,Complétude faible,0 %,Haute
+afld,Complétude faible,0 %,Haute
+art,Complétude faible,0 %,Haute
+acnusa,Complétude faible,0 %,Haute
+mediateur_energie,Complétude faible,0 %,Haute
+hceres,Complétude faible,0 %,Haute
+asnr,Complétude faible,17 %,Haute
+interieur,Complétude faible,0 %,Haute
+justice,Complétude faible,0 %,Haute
+armees,Complétude faible,0 %,Haute
+education,Complétude faible,0 %,Haute
+enseignement_superieur,Complétude faible,0 %,Haute
+economie,Complétude faible,0 %,Haute
+travail,Complétude faible,0 %,Haute
+sante,Complétude faible,0 %,Haute
+ecologie,Complétude faible,0 %,Haute
+culture,Complétude faible,0 %,Haute
+affaires_etrangeres,Complétude faible,0 %,Haute
+agriculture,Complétude faible,0 %,Haute
+dga,Complétude faible,0 %,Haute
+dgpn,Complétude faible,0 %,Haute
+dggn,Complétude faible,0 %,Haute
+dgfip,Complétude faible,0 %,Haute
+dgddi,Complétude faible,0 %,Haute
+aft,Complétude faible,0 %,Haute
+dila,Complétude faible,0 %,Haute
+dinum,Complétude faible,0 %,Haute
+ditp,Complétude faible,0 %,Haute
+inserm,Complétude faible,0 %,Haute
+inrae,Complétude faible,0 %,Haute
+inria,Complétude faible,0 %,Haute
+cea,Complétude faible,0 %,Haute
+cnes,Complétude faible,0 %,Haute
+anr,Complétude faible,0 %,Haute
+ans,Complétude faible,0 %,Haute
+anses,Complétude faible,0 %,Haute
+cerema,Complétude faible,0 %,Haute
+ign,Complétude faible,0 %,Haute
+onf,Complétude faible,0 %,Haute
+ofii,Complétude faible,0 %,Haute
+ofpra,Complétude faible,0 %,Haute
+ants,Complétude faible,0 %,Haute
+anah,Complétude faible,0 %,Haute
+anru,Complétude faible,0 %,Haute
+cnaf,Complétude faible,0 %,Haute
+cnam,Complétude faible,0 %,Haute
+cnav,Complétude faible,0 %,Haute
+urssaf_caisse_nationale,Complétude faible,0 %,Haute
+acoss,Complétude faible,0 %,Haute
+cdc,Complétude faible,0 %,Haute
+cnfpt,Complétude faible,0 %,Haute
+insp,Complétude faible,17 %,Haute
+ena_archive,Complétude faible,0 %,Haute
+louvre,Complétude faible,0 %,Haute
+bnf,Complétude faible,0 %,Haute
+universcience,Complétude faible,0 %,Haute
+centre_pompidou,Complétude faible,0 %,Haute
+opera_paris,Complétude faible,0 %,Haute
+cnc,Complétude faible,0 %,Haute
+france_medias_monde,Complétude faible,0 %,Haute
+france_televisions,Complétude faible,0 %,Haute
+radio_france,Complétude faible,0 %,Haute
+ina,Complétude faible,0 %,Haute
+sncf_reseau,Complétude faible,0 %,Haute
+has,Gouvernance à vérifier,Organisation officielle ; nom du président à revérifier,Moyenne
+cre,Gouvernance à vérifier,Organisation officielle ; présidence à revérifier,Moyenne
+banque_france,Gouvernance à vérifier,Institution officielle ; titulaire à revérifier,Moyenne
+sante_publique_france,Gouvernance à vérifier,Organisation officielle,Moyenne
+ansm,Gouvernance à vérifier,Organisation officielle,Moyenne
+ofb,Gouvernance à vérifier,Organisation officielle,Moyenne
+bpifrance,Gouvernance à vérifier,Gouvernance institutionnelle,Moyenne
+france_competences,Gouvernance à vérifier,Organisation officielle,Moyenne
