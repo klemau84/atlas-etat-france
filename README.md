@@ -1,3 +1,3 @@
-# Atlas de l'État français — V2.2
+# Atlas de l'État français — V2.3
 
-100 organismes et premier lot de 10 fiches enrichies avec gouvernance, composition, budget/effectifs lorsqu'ils sont disponibles.
+100 organismes, 20 fiches enrichies, chronologie et registre des rapports officiels.

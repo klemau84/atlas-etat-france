@@ -1,0 +1,9 @@
+﻿entity_id,date,type_evenement,evenement,source_url
+cnil,1978-01-06,Création,Création par la loi Informatique et Libertés,https://www.legifrance.gouv.fr/
+cnil,2018-05-25,Évolution juridique,Entrée en application du RGPD,https://www.cnil.fr/
+arcom,2022-01-01,Fusion,Création de l'Arcom par fusion du CSA et de l'Hadopi,https://www.arcom.fr/
+france_travail,2024-01-01,Transformation,Pôle emploi devient France Travail,https://www.francetravail.org/
+asnr,2025-01-01,Création,Création de l'ASNR issue de la réorganisation de la sûreté nucléaire et de la radioprotection,https://www.asnr.fr/
+insp,2022-01-01,Création,L'INSP succède à l'ENA,https://insp.gouv.fr/
+cour_comptes,1807-09-16,Création,Création de la Cour des comptes,https://www.ccomptes.fr/
+anssi,2009-07-07,Création,Création de l'ANSSI,https://cyber.gouv.fr/
