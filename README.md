@@ -1,3 +1,3 @@
-# Atlas de l'État français — V3.3
+# Atlas de l'État français — V4.0
 
-Version consolidée : recherche globale, dossiers thématiques, fraîcheur des sources, gouvernance, relations, alertes et exports complets.
+Migration vers SQLite, schéma relationnel, scripts d'import et application Streamlit connectée à la base.
