@@ -1,0 +1,101 @@
+﻿entity_id,nom,derniere_date_source,anciennete_jours,statut_fraicheur,nombre_sources
+presidence,Présidence de la République,,,Non daté,1
+gouvernement,Gouvernement,,,Non daté,1
+assemblee,Assemblée nationale,,,Non daté,1
+senat,Sénat,,,Non daté,1
+conseil_constitutionnel,Conseil constitutionnel,,,Non daté,1
+conseil_etat,Conseil d'État,,,Non daté,1
+cour_cassation,Cour de cassation,,,Non daté,1
+cour_comptes,Cour des comptes,2026-01-01,193,Récent,5
+cese,"Conseil économique, social et environnemental",,,Non daté,1
+defenseur,Défenseur des droits,,,Non daté,1
+cnil,CNIL,2025-04-01,468,À rafraîchir,7
+arcom,Arcom,2025-01-01,558,À rafraîchir,6
+arcep,Arcep,2021-01-01,2019,Ancien,4
+amf,Autorité des marchés financiers,2025-01-01,558,À rafraîchir,5
+autorite_concurrence,Autorité de la concurrence,,,Non daté,1
+hatvp,HATVP,2025-01-01,558,À rafraîchir,5
+has,Haute Autorité de santé,,,Non daté,4
+cre,Commission de régulation de l'énergie,,,Non daté,4
+commission_sondages,Commission des sondages,,,Non daté,1
+cndp,Commission nationale du débat public,,,Non daté,1
+cglpl,Contrôleur général des lieux de privation de liberté,,,Non daté,1
+cada,Commission d'accès aux documents administratifs,,,Non daté,1
+cnccfp,CNCCFP,,,Non daté,1
+cnctr,CNCTR,,,Non daté,1
+anj,Autorité nationale des jeux,,,Non daté,1
+afld,Agence française de lutte contre le dopage,,,Non daté,1
+art,Autorité de régulation des transports,,,Non daté,1
+acnusa,ACNUSA,,,Non daté,1
+mediateur_energie,Médiateur national de l'énergie,,,Non daté,1
+hceres,HCERES,,,Non daté,1
+asnr,Autorité de sûreté nucléaire et de radioprotection,2025-01-01,558,À rafraîchir,2
+interieur,Ministère de l'Intérieur,,,Non daté,1
+justice,Ministère de la Justice,,,Non daté,1
+armees,Ministère des Armées,,,Non daté,1
+education,Ministère de l'Éducation nationale,,,Non daté,1
+enseignement_superieur,Ministère de l'Enseignement supérieur et de la Recherche,,,Non daté,1
+economie,Ministère de l'Économie et des Finances,,,Non daté,1
+travail,Ministère du Travail,,,Non daté,1
+sante,Ministère de la Santé,,,Non daté,1
+ecologie,Ministère de la Transition écologique,,,Non daté,1
+culture,Ministère de la Culture,,,Non daté,1
+affaires_etrangeres,Ministère de l'Europe et des Affaires étrangères,,,Non daté,1
+agriculture,Ministère de l'Agriculture,,,Non daté,1
+dga,Direction générale de l'armement,,,Non daté,1
+dgpn,Direction générale de la Police nationale,,,Non daté,1
+dggn,Direction générale de la Gendarmerie nationale,,,Non daté,1
+dgfip,Direction générale des Finances publiques,,,Non daté,1
+dgddi,Direction générale des douanes et droits indirects,,,Non daté,1
+insee,Insee,2025-01-01,558,À rafraîchir,5
+aft,Agence France Trésor,,,Non daté,1
+anssi,ANSSI,2023-01-01,1289,Ancien,5
+dila,Direction de l'information légale et administrative,,,Non daté,1
+dinum,Direction interministérielle du numérique,,,Non daté,1
+ditp,Direction interministérielle de la transformation publique,,,Non daté,1
+france_travail,France Travail,2024-01-01,924,Ancien,5
+cnrs,CNRS,2026-01-01,193,Récent,4
+inserm,Inserm,,,Non daté,1
+inrae,INRAE,,,Non daté,1
+inria,Inria,,,Non daté,1
+cea,Commissariat à l'énergie atomique et aux énergies alternatives,,,Non daté,1
+cnes,Centre national d'études spatiales,,,Non daté,1
+meteo,Météo-France,2019-01-01,2750,Ancien,4
+ademe,ADEME,2025-01-01,558,À rafraîchir,5
+anr,Agence nationale de la recherche,,,Non daté,1
+ans,Agence du numérique en santé,,,Non daté,1
+ansm,Agence nationale de sécurité du médicament,,,Non daté,4
+sante_publique_france,Santé publique France,2025-01-01,558,À rafraîchir,5
+anses,ANSES,,,Non daté,1
+ofb,Office français de la biodiversité,2025-01-01,558,À rafraîchir,5
+cerema,Cerema,,,Non daté,1
+ign,Institut national de l'information géographique et forestière,,,Non daté,1
+onf,Office national des forêts,,,Non daté,1
+ofii,Office français de l'immigration et de l'intégration,,,Non daté,1
+ofpra,OFPRA,,,Non daté,1
+ants,Agence nationale des titres sécurisés,,,Non daté,1
+anah,Agence nationale de l'habitat,,,Non daté,1
+anru,Agence nationale pour la rénovation urbaine,,,Non daté,1
+cnaf,Caisse nationale des allocations familiales,,,Non daté,1
+cnam,Caisse nationale de l'Assurance maladie,,,Non daté,1
+cnav,Caisse nationale d'assurance vieillesse,,,Non daté,1
+urssaf_caisse_nationale,Urssaf Caisse nationale,,,Non daté,1
+acoss,Agence centrale des organismes de sécurité sociale,,,Non daté,1
+bpifrance,Bpifrance,,,Non daté,4
+cdc,Caisse des dépôts et consignations,,,Non daté,1
+banque_france,Banque de France,,,Non daté,4
+france_competences,France compétences,,,Non daté,4
+cnfpt,Centre national de la fonction publique territoriale,,,Non daté,1
+insp,Institut national du service public,2022-01-01,1654,Ancien,2
+ena_archive,École nationale d'administration,,,Non daté,1
+louvre,Musée du Louvre,,,Non daté,1
+bnf,Bibliothèque nationale de France,,,Non daté,1
+universcience,Universcience,,,Non daté,1
+centre_pompidou,Centre national d'art et de culture Georges-Pompidou,,,Non daté,1
+opera_paris,Opéra national de Paris,,,Non daté,1
+cnc,Centre national du cinéma et de l'image animée,,,Non daté,1
+france_medias_monde,France Médias Monde,,,Non daté,1
+france_televisions,France Télévisions,,,Non daté,1
+radio_france,Radio France,,,Non daté,1
+ina,Institut national de l'audiovisuel,,,Non daté,1
+sncf_reseau,SNCF Réseau,,,Non daté,1

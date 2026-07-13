@@ -26,13 +26,18 @@ def load_data():
         pd.read_csv(BASE/"organes_gouvernance.csv"),
         pd.read_csv(BASE/"alertes.csv"),
         pd.read_csv(BASE/"indicateurs_synthese.csv"),
+        pd.read_csv(BASE/"fraicheur_sources.csv"),
+        pd.read_csv(BASE/"journal_audit.csv"),
+        pd.read_csv(BASE/"index_recherche.csv"),
+        pd.read_csv(BASE/"themes.csv"),
+        pd.read_csv(BASE/"dossiers_thematiques.csv"),
         pd.read_csv(BASE/"sources.csv"),
     )
 
-entites, fiches, chronologie, rapports, relations, qualite, documents, backlog, historique_financier, dictionnaire, journal_versions, personnes, mandats, organes, alertes, synthese, sources = load_data()
+entites, fiches, chronologie, rapports, relations, qualite, documents, backlog, historique_financier, dictionnaire, journal_versions, personnes, mandats, organes, alertes, synthese, fraicheur, audit, index_recherche, themes, dossiers, sources = load_data()
 
 st.title("Atlas de l'État français")
-st.caption("V3.0 · Atlas consolidé : institutions, personnes, finances, gouvernance et alertes")
+st.caption("V3.3 · Dossiers thématiques et exports consolidés")
 
 with st.sidebar:
     categories = st.multiselect("Catégories", sorted(entites.categorie.unique()), default=sorted(entites.categorie.unique()))
@@ -71,7 +76,7 @@ overview_cols[1].metric("Mandats recensés", len(mandats))
 overview_cols[2].metric("Organes de gouvernance", len(organes))
 
 
-tabs = st.tabs(["Annuaire","Fiche","Documents","Relations","Chronologie","Rapports","Complétude","Historique financier","Comparer","Personnes et mandats","Organes de gouvernance","Alertes","Plan d'enrichissement","Dictionnaire","Sources"])
+tabs = st.tabs(["Annuaire","Fiche","Documents","Relations","Chronologie","Rapports","Complétude","Historique financier","Comparer","Personnes et mandats","Organes de gouvernance","Alertes","Fraîcheur","Recherche globale","Thématiques","Dossiers","Plan d'enrichissement","Dictionnaire","Sources"])
 
 with tabs[0]:
     st.dataframe(vue[["nom","categorie","domaine","tutelle","dirigeant","niveau_fiche","statut_donnee"]], width="stretch", hide_index=True)
@@ -186,16 +191,60 @@ with tabs[11]:
         st.success("Aucune alerte ouverte.")
 
 with tabs[12]:
+    st.subheader("Fraîcheur des sources")
+    st.dataframe(fraicheur.sort_values(["statut_fraicheur","anciennete_jours"], na_position="last"), width="stretch", hide_index=True)
+    dist = fraicheur.groupby("statut_fraicheur", as_index=False).size()
+    st.plotly_chart(px.bar(dist, x="statut_fraicheur", y="size", text="size",
+                           labels={"statut_fraicheur":"","size":"Nombre d'organismes"}), width="stretch")
+    st.subheader("Journal d'audit")
+    st.dataframe(audit, width="stretch", hide_index=True)
+
+with tabs[13]:
+    st.subheader("Recherche globale")
+    q = st.text_input("Mot-clé global", key="global_search")
+    if q:
+        resultats = index_recherche[index_recherche.texte_indexe.str.contains(q.lower(), na=False)].copy()
+        names = entites.set_index("entity_id")["nom"].to_dict()
+        resultats["organisme"] = resultats.entity_id.map(names)
+        st.dataframe(resultats[["organisme","type_resultat","titre","contenu","url"]], width="stretch", hide_index=True)
+    else:
+        st.caption("Saisir un mot-clé pour rechercher dans les organismes, rapports, documents et événements.")
+
+with tabs[14]:
+    st.subheader("Vues thématiques")
+    theme = st.selectbox("Thème", sorted(themes.theme.unique()))
+    subset = themes[themes.theme == theme]
+    st.dataframe(subset[["nom","domaine","categorie"]], width="stretch", hide_index=True)
+    counts = subset.groupby("categorie", as_index=False).size()
+    st.plotly_chart(px.bar(counts, x="categorie", y="size", text="size",
+                           labels={"categorie":"","size":"Nombre"}), width="stretch")
+
+with tabs[15]:
+    st.subheader("Dossiers thématiques")
+    st.dataframe(dossiers.sort_values("nombre_organismes", ascending=False), width="stretch", hide_index=True)
+    selected = st.selectbox("Dossier", sorted(dossiers.theme.unique()))
+    d = dossiers[dossiers.theme == selected].iloc[0]
+    c1,c2,c3,c4 = st.columns(4)
+    c1.metric("Organismes", int(d.nombre_organismes))
+    c2.metric("Relations", int(d.nombre_relations))
+    c3.metric("Complétude", f"{d.completude_moyenne_pct:.1f} %")
+    c4.metric("Sources récentes", int(d.sources_recentes))
+    st.markdown(f"**Exemples :** {d.organismes_exemples}")
+
+with tabs[16]:
     st.dataframe(backlog, width="stretch", hide_index=True)
     st.caption("Le score sert uniquement à ordonner les prochaines collectes de données.")
 
-with tabs[13]:
+with tabs[17]:
     st.subheader("Dictionnaire des données")
     st.dataframe(dictionnaire, width="stretch", hide_index=True)
     st.subheader("Journal des versions")
     st.dataframe(journal_versions, width="stretch", hide_index=True)
     st.download_button("Exporter l'annuaire consolidé", entites.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_entites_v2_7.csv", "text/csv")
-    st.download_button("Exporter les fiches détaillées", fiches.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_fiches_v2_7.csv", "text/csv")
+    st.download_button("Exporter les fiches détaillées", fiches.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_fiches_v3_3.csv", "text/csv")
+    st.download_button("Exporter les relations", relations.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_relations_v3_3.csv", "text/csv")
+    st.download_button("Exporter les personnes", personnes.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_personnes_v3_3.csv", "text/csv")
+    st.download_button("Exporter les mandats", mandats.to_csv(index=False).encode("utf-8-sig"), "atlas_etat_mandats_v3_3.csv", "text/csv")
 
-with tabs[14]:
+with tabs[18]:
     st.dataframe(sources, width="stretch", hide_index=True)

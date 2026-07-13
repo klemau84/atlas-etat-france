@@ -1,0 +1,9 @@
+﻿theme,nombre_organismes,nombre_relations,completude_moyenne_pct,sources_recentes,sources_a_rafraichir,sources_anciennes,organismes_exemples
+Culture et médias,11,19,6.1,0,1,0,"Arcom, Bibliothèque nationale de France, Centre national d'art et de culture Georges-Pompidou, France Médias Monde, Ministère de l'Agriculture, Ministère de la Culture, Musée du Louvre, Opéra national de Paris"
+Institutions et autres,48,50,8.7,1,3,3,"Assemblée nationale, Conseil constitutionnel, Conseil économique, social et environnemental, Cour des comptes, Défenseur des droits, Gouvernement, Présidence de la République, Sénat"
+Recherche et enseignement,9,10,3.7,1,0,0,"Agence nationale de la recherche, CNCTR, CNRS, Commissariat à l'énergie atomique et aux énergies alternatives, HCERES, INRAE, Inria, Ministère de l'Enseignement supérieur et de la Recherche"
+Santé,8,7,14.6,0,1,0,"ANSES, Agence du numérique en santé, Agence nationale de sécurité du médicament, Caisse nationale de l'Assurance maladie, Haute Autorité de santé, Inserm, Ministère de la Santé, Santé publique France"
+Sécurité et justice,7,10,7.1,0,0,1,"ANSSI, Conseil d'État, Cour de cassation, Direction générale de la Gendarmerie nationale, Direction générale de la Police nationale, Ministère de l'Intérieur, Ministère de la Justice"
+Transports,3,1,0.0,0,0,0,"ACNUSA, Autorité de régulation des transports, SNCF Réseau"
+Économie et emploi,8,12,16.7,0,1,1,"Agence France Trésor, Autorité de la concurrence, Autorité des marchés financiers, Bpifrance, Direction générale des Finances publiques, France Travail, Ministère de l'Économie et des Finances, Ministère du Travail"
+Énergie et environnement,6,9,25.0,0,3,0,"ADEME, Autorité de sûreté nucléaire et de radioprotection, Commission de régulation de l'énergie, Ministère de la Transition écologique, Médiateur national de l'énergie, Office français de la biodiversité"

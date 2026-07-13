@@ -1,0 +1,101 @@
+﻿entity_id,nom,theme,domaine,categorie
+presidence,Présidence de la République,Institutions et autres,Exécutif,Institution constitutionnelle
+gouvernement,Gouvernement,Institutions et autres,Exécutif,Institution constitutionnelle
+assemblee,Assemblée nationale,Institutions et autres,Législatif,Institution constitutionnelle
+senat,Sénat,Institutions et autres,Législatif,Institution constitutionnelle
+conseil_constitutionnel,Conseil constitutionnel,Institutions et autres,Contrôle constitutionnel,Institution constitutionnelle
+conseil_etat,Conseil d'État,Sécurité et justice,Justice administrative,Juridiction et conseil
+cour_cassation,Cour de cassation,Sécurité et justice,Justice judiciaire,Juridiction
+cour_comptes,Cour des comptes,Institutions et autres,Contrôle financier,Juridiction financière
+cese,"Conseil économique, social et environnemental",Institutions et autres,Consultatif,Institution constitutionnelle
+defenseur,Défenseur des droits,Institutions et autres,Droits et libertés,Autorité constitutionnelle indépendante
+cnil,CNIL,Institutions et autres,Données personnelles,Autorité administrative indépendante
+arcom,Arcom,Culture et médias,Numérique et médias,Autorité publique indépendante
+arcep,Arcep,Institutions et autres,Télécoms et postes,Autorité administrative indépendante
+amf,Autorité des marchés financiers,Économie et emploi,Finance,Autorité publique indépendante
+autorite_concurrence,Autorité de la concurrence,Économie et emploi,Économie,Autorité administrative indépendante
+hatvp,HATVP,Institutions et autres,Déontologie publique,Autorité administrative indépendante
+has,Haute Autorité de santé,Santé,Santé,Autorité publique indépendante
+cre,Commission de régulation de l'énergie,Énergie et environnement,Énergie,Autorité administrative indépendante
+commission_sondages,Commission des sondages,Institutions et autres,Vie politique,Autorité administrative indépendante
+cndp,Commission nationale du débat public,Institutions et autres,Participation publique,Autorité administrative indépendante
+cglpl,Contrôleur général des lieux de privation de liberté,Institutions et autres,Droits fondamentaux,Autorité administrative indépendante
+cada,Commission d'accès aux documents administratifs,Institutions et autres,Transparence,Autorité administrative indépendante
+cnccfp,CNCCFP,Institutions et autres,Vie politique,Autorité administrative indépendante
+cnctr,CNCTR,Recherche et enseignement,Renseignement,Autorité administrative indépendante
+anj,Autorité nationale des jeux,Institutions et autres,Jeux d'argent,Autorité administrative indépendante
+afld,Agence française de lutte contre le dopage,Institutions et autres,Sport,Autorité publique indépendante
+art,Autorité de régulation des transports,Transports,Transports,Autorité publique indépendante
+acnusa,ACNUSA,Transports,Transport aérien,Autorité administrative indépendante
+mediateur_energie,Médiateur national de l'énergie,Énergie et environnement,Énergie,Autorité publique indépendante
+hceres,HCERES,Recherche et enseignement,Enseignement supérieur,Autorité publique indépendante
+asnr,Autorité de sûreté nucléaire et de radioprotection,Énergie et environnement,Nucléaire,Autorité administrative indépendante
+interieur,Ministère de l'Intérieur,Sécurité et justice,Sécurité intérieure,Ministère
+justice,Ministère de la Justice,Sécurité et justice,Justice,Ministère
+armees,Ministère des Armées,Institutions et autres,Défense,Ministère
+education,Ministère de l'Éducation nationale,Institutions et autres,Éducation,Ministère
+enseignement_superieur,Ministère de l'Enseignement supérieur et de la Recherche,Recherche et enseignement,Recherche,Ministère
+economie,Ministère de l'Économie et des Finances,Économie et emploi,Économie,Ministère
+travail,Ministère du Travail,Économie et emploi,Emploi,Ministère
+sante,Ministère de la Santé,Santé,Santé,Ministère
+ecologie,Ministère de la Transition écologique,Énergie et environnement,Environnement,Ministère
+culture,Ministère de la Culture,Culture et médias,Culture,Ministère
+affaires_etrangeres,Ministère de l'Europe et des Affaires étrangères,Institutions et autres,Diplomatie,Ministère
+agriculture,Ministère de l'Agriculture,Culture et médias,Agriculture,Ministère
+dga,Direction générale de l'armement,Institutions et autres,Défense,Direction générale
+dgpn,Direction générale de la Police nationale,Sécurité et justice,Sécurité intérieure,Direction générale
+dggn,Direction générale de la Gendarmerie nationale,Sécurité et justice,Sécurité intérieure,Direction générale
+dgfip,Direction générale des Finances publiques,Économie et emploi,Finances publiques,Direction générale
+dgddi,Direction générale des douanes et droits indirects,Institutions et autres,Douanes,Direction générale
+insee,Insee,Institutions et autres,Statistique publique,Direction d'administration centrale
+aft,Agence France Trésor,Économie et emploi,Dette publique,Service à compétence nationale
+anssi,ANSSI,Sécurité et justice,Cybersécurité,Service à compétence nationale
+dila,Direction de l'information légale et administrative,Institutions et autres,Information publique,Direction d'administration centrale
+dinum,Direction interministérielle du numérique,Institutions et autres,Numérique public,Direction interministérielle
+ditp,Direction interministérielle de la transformation publique,Institutions et autres,Transformation publique,Direction interministérielle
+france_travail,France Travail,Économie et emploi,Emploi,Opérateur de l'État
+cnrs,CNRS,Recherche et enseignement,Recherche,Opérateur de l'État
+inserm,Inserm,Santé,Recherche et santé,Opérateur de l'État
+inrae,INRAE,Recherche et enseignement,Recherche agronomique,Opérateur de l'État
+inria,Inria,Recherche et enseignement,Numérique et recherche,Opérateur de l'État
+cea,Commissariat à l'énergie atomique et aux énergies alternatives,Recherche et enseignement,Nucléaire et recherche,Opérateur de l'État
+cnes,Centre national d'études spatiales,Institutions et autres,Espace,Opérateur de l'État
+meteo,Météo-France,Institutions et autres,Météorologie,Opérateur de l'État
+ademe,ADEME,Énergie et environnement,Transition écologique,Opérateur de l'État
+anr,Agence nationale de la recherche,Recherche et enseignement,Recherche,Opérateur de l'État
+ans,Agence du numérique en santé,Santé,Santé numérique,Opérateur de l'État
+ansm,Agence nationale de sécurité du médicament,Santé,Santé,Établissement public
+sante_publique_france,Santé publique France,Santé,Santé publique,Établissement public
+anses,ANSES,Santé,Sécurité sanitaire,Établissement public
+ofb,Office français de la biodiversité,Énergie et environnement,Biodiversité,Établissement public
+cerema,Cerema,Institutions et autres,Aménagement,Établissement public
+ign,Institut national de l'information géographique et forestière,Institutions et autres,Géographie,Établissement public
+onf,Office national des forêts,Institutions et autres,Forêts,Établissement public
+ofii,Office français de l'immigration et de l'intégration,Institutions et autres,Immigration,Établissement public
+ofpra,OFPRA,Institutions et autres,Asile,Établissement public
+ants,Agence nationale des titres sécurisés,Institutions et autres,Titres administratifs,Opérateur de l'État
+anah,Agence nationale de l'habitat,Institutions et autres,Logement,Établissement public
+anru,Agence nationale pour la rénovation urbaine,Institutions et autres,Politique de la ville,Établissement public
+cnaf,Caisse nationale des allocations familiales,Institutions et autres,Protection sociale,Organisme de sécurité sociale
+cnam,Caisse nationale de l'Assurance maladie,Santé,Santé,Organisme de sécurité sociale
+cnav,Caisse nationale d'assurance vieillesse,Institutions et autres,Retraites,Organisme de sécurité sociale
+urssaf_caisse_nationale,Urssaf Caisse nationale,Institutions et autres,Recouvrement,Organisme de sécurité sociale
+acoss,Agence centrale des organismes de sécurité sociale,Institutions et autres,Recouvrement,Ancienne dénomination
+bpifrance,Bpifrance,Économie et emploi,Financement des entreprises,Société publique
+cdc,Caisse des dépôts et consignations,Institutions et autres,Investissement public,Institution financière publique
+banque_france,Banque de France,Institutions et autres,Banque centrale,Institution publique indépendante
+france_competences,France compétences,Institutions et autres,Formation professionnelle,Établissement public
+cnfpt,Centre national de la fonction publique territoriale,Institutions et autres,Fonction publique territoriale,Établissement public
+insp,Institut national du service public,Institutions et autres,Formation publique,Établissement public
+ena_archive,École nationale d'administration,Institutions et autres,Formation publique,Ancien établissement
+louvre,Musée du Louvre,Culture et médias,Culture,Établissement public
+bnf,Bibliothèque nationale de France,Culture et médias,Culture,Établissement public
+universcience,Universcience,Recherche et enseignement,Culture scientifique,Établissement public
+centre_pompidou,Centre national d'art et de culture Georges-Pompidou,Culture et médias,Culture,Établissement public
+opera_paris,Opéra national de Paris,Culture et médias,Culture,Établissement public
+cnc,Centre national du cinéma et de l'image animée,Institutions et autres,Cinéma,Établissement public
+france_medias_monde,France Médias Monde,Culture et médias,Audiovisuel public,Société publique
+france_televisions,France Télévisions,Culture et médias,Audiovisuel public,Société publique
+radio_france,Radio France,Culture et médias,Audiovisuel public,Société publique
+ina,Institut national de l'audiovisuel,Culture et médias,Audiovisuel,Établissement public
+sncf_reseau,SNCF Réseau,Transports,Transport ferroviaire,Entreprise publique

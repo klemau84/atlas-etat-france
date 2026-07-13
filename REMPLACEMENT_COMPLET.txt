@@ -1,1 +1,1 @@
-Conserver uniquement .git, supprimer le reste, copier tous les fichiers. Commit conseillé : V3.0 - Atlas consolidé
+Conserver uniquement .git, supprimer le reste, copier tous les fichiers. Commit conseillé : V3.3 - Dossiers thématiques et exports
