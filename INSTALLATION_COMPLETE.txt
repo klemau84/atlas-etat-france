@@ -1,0 +1,1 @@
+Créer le dépôt atlas-etat-france, copier tous les fichiers, Commit to main, Push origin, puis déployer app.py sur Streamlit.
