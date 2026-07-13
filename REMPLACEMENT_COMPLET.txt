@@ -1,1 +1,1 @@
-Conserver uniquement .git, supprimer le reste, copier tous les fichiers, Commit V2.1 - Référentiel 100 organismes, puis Push origin.
+Conserver uniquement .git, supprimer le reste, copier tous les fichiers, Commit V2.2 - Premières fiches détaillées, puis Push origin.
