@@ -1,0 +1,101 @@
+﻿entity_id,nom,categorie,domaine,niveau_fiche,fiche_detaillee,document_officiel,score_restant
+aft,Agence France Trésor,Service à compétence nationale,Dette publique,Succincte,0,0,7
+acoss,Agence centrale des organismes de sécurité sociale,Ancienne dénomination,Recouvrement,Succincte,0,0,7
+cnav,Caisse nationale d'assurance vieillesse,Organisme de sécurité sociale,Retraites,Succincte,0,0,7
+cnam,Caisse nationale de l'Assurance maladie,Organisme de sécurité sociale,Santé,Succincte,0,0,7
+cnaf,Caisse nationale des allocations familiales,Organisme de sécurité sociale,Protection sociale,Succincte,0,0,7
+conseil_etat,Conseil d'État,Juridiction et conseil,Justice administrative,Succincte,0,0,7
+cour_cassation,Cour de cassation,Juridiction,Justice judiciaire,Succincte,0,0,7
+dila,Direction de l'information légale et administrative,Direction d'administration centrale,Information publique,Succincte,0,0,7
+ditp,Direction interministérielle de la transformation publique,Direction interministérielle,Transformation publique,Succincte,0,0,7
+dinum,Direction interministérielle du numérique,Direction interministérielle,Numérique public,Succincte,0,0,7
+france_medias_monde,France Médias Monde,Société publique,Audiovisuel public,Succincte,0,0,7
+france_televisions,France Télévisions,Société publique,Audiovisuel public,Succincte,0,0,7
+radio_france,Radio France,Société publique,Audiovisuel public,Succincte,0,0,7
+sncf_reseau,SNCF Réseau,Entreprise publique,Transport ferroviaire,Succincte,0,0,7
+urssaf_caisse_nationale,Urssaf Caisse nationale,Organisme de sécurité sociale,Recouvrement,Succincte,0,0,7
+ena_archive,École nationale d'administration,Ancien établissement,Formation publique,Succincte,0,0,7
+acnusa,ACNUSA,Autorité administrative indépendante,Transport aérien,Détaillée prioritaire,0,0,6
+anses,ANSES,Établissement public,Sécurité sanitaire,Détaillée prioritaire,0,0,6
+ans,Agence du numérique en santé,Opérateur de l'État,Santé numérique,Détaillée prioritaire,0,0,6
+afld,Agence française de lutte contre le dopage,Autorité publique indépendante,Sport,Détaillée prioritaire,0,0,6
+anah,Agence nationale de l'habitat,Établissement public,Logement,Détaillée prioritaire,0,0,6
+anr,Agence nationale de la recherche,Opérateur de l'État,Recherche,Détaillée prioritaire,0,0,6
+ants,Agence nationale des titres sécurisés,Opérateur de l'État,Titres administratifs,Détaillée prioritaire,0,0,6
+anru,Agence nationale pour la rénovation urbaine,Établissement public,Politique de la ville,Détaillée prioritaire,0,0,6
+assemblee,Assemblée nationale,Institution constitutionnelle,Législatif,Détaillée prioritaire,0,0,6
+autorite_concurrence,Autorité de la concurrence,Autorité administrative indépendante,Économie,Détaillée prioritaire,0,0,6
+art,Autorité de régulation des transports,Autorité publique indépendante,Transports,Détaillée prioritaire,0,0,6
+asnr,Autorité de sûreté nucléaire et de radioprotection,Autorité administrative indépendante,Nucléaire,Détaillée prioritaire,0,0,6
+anj,Autorité nationale des jeux,Autorité administrative indépendante,Jeux d'argent,Détaillée prioritaire,0,0,6
+bnf,Bibliothèque nationale de France,Établissement public,Culture,Détaillée prioritaire,0,0,6
+cnccfp,CNCCFP,Autorité administrative indépendante,Vie politique,Détaillée prioritaire,0,0,6
+cnctr,CNCTR,Autorité administrative indépendante,Renseignement,Détaillée prioritaire,0,0,6
+cdc,Caisse des dépôts et consignations,Institution financière publique,Investissement public,Détaillée prioritaire,0,0,6
+centre_pompidou,Centre national d'art et de culture Georges-Pompidou,Établissement public,Culture,Détaillée prioritaire,0,0,6
+cnes,Centre national d'études spatiales,Opérateur de l'État,Espace,Détaillée prioritaire,0,0,6
+cnfpt,Centre national de la fonction publique territoriale,Établissement public,Fonction publique territoriale,Détaillée prioritaire,0,0,6
+cnc,Centre national du cinéma et de l'image animée,Établissement public,Cinéma,Détaillée prioritaire,0,0,6
+cerema,Cerema,Établissement public,Aménagement,Détaillée prioritaire,0,0,6
+cea,Commissariat à l'énergie atomique et aux énergies alternatives,Opérateur de l'État,Nucléaire et recherche,Détaillée prioritaire,0,0,6
+cada,Commission d'accès aux documents administratifs,Autorité administrative indépendante,Transparence,Détaillée prioritaire,0,0,6
+commission_sondages,Commission des sondages,Autorité administrative indépendante,Vie politique,Détaillée prioritaire,0,0,6
+cndp,Commission nationale du débat public,Autorité administrative indépendante,Participation publique,Détaillée prioritaire,0,0,6
+conseil_constitutionnel,Conseil constitutionnel,Institution constitutionnelle,Contrôle constitutionnel,Détaillée prioritaire,0,0,6
+cese,"Conseil économique, social et environnemental",Institution constitutionnelle,Consultatif,Détaillée prioritaire,0,0,6
+cglpl,Contrôleur général des lieux de privation de liberté,Autorité administrative indépendante,Droits fondamentaux,Détaillée prioritaire,0,0,6
+dga,Direction générale de l'armement,Direction générale,Défense,Détaillée prioritaire,0,0,6
+dggn,Direction générale de la Gendarmerie nationale,Direction générale,Sécurité intérieure,Détaillée prioritaire,0,0,6
+dgpn,Direction générale de la Police nationale,Direction générale,Sécurité intérieure,Détaillée prioritaire,0,0,6
+dgfip,Direction générale des Finances publiques,Direction générale,Finances publiques,Détaillée prioritaire,0,0,6
+dgddi,Direction générale des douanes et droits indirects,Direction générale,Douanes,Détaillée prioritaire,0,0,6
+defenseur,Défenseur des droits,Autorité constitutionnelle indépendante,Droits et libertés,Détaillée prioritaire,0,0,6
+gouvernement,Gouvernement,Institution constitutionnelle,Exécutif,Détaillée prioritaire,0,0,6
+hceres,HCERES,Autorité publique indépendante,Enseignement supérieur,Détaillée prioritaire,0,0,6
+inrae,INRAE,Opérateur de l'État,Recherche agronomique,Détaillée prioritaire,0,0,6
+inria,Inria,Opérateur de l'État,Numérique et recherche,Détaillée prioritaire,0,0,6
+inserm,Inserm,Opérateur de l'État,Recherche et santé,Détaillée prioritaire,0,0,6
+ina,Institut national de l'audiovisuel,Établissement public,Audiovisuel,Détaillée prioritaire,0,0,6
+ign,Institut national de l'information géographique et forestière,Établissement public,Géographie,Détaillée prioritaire,0,0,6
+insp,Institut national du service public,Établissement public,Formation publique,Détaillée prioritaire,0,0,6
+agriculture,Ministère de l'Agriculture,Ministère,Agriculture,Détaillée prioritaire,0,0,6
+enseignement_superieur,Ministère de l'Enseignement supérieur et de la Recherche,Ministère,Recherche,Détaillée prioritaire,0,0,6
+affaires_etrangeres,Ministère de l'Europe et des Affaires étrangères,Ministère,Diplomatie,Détaillée prioritaire,0,0,6
+interieur,Ministère de l'Intérieur,Ministère,Sécurité intérieure,Détaillée prioritaire,0,0,6
+economie,Ministère de l'Économie et des Finances,Ministère,Économie,Détaillée prioritaire,0,0,6
+education,Ministère de l'Éducation nationale,Ministère,Éducation,Détaillée prioritaire,0,0,6
+culture,Ministère de la Culture,Ministère,Culture,Détaillée prioritaire,0,0,6
+justice,Ministère de la Justice,Ministère,Justice,Détaillée prioritaire,0,0,6
+sante,Ministère de la Santé,Ministère,Santé,Détaillée prioritaire,0,0,6
+ecologie,Ministère de la Transition écologique,Ministère,Environnement,Détaillée prioritaire,0,0,6
+armees,Ministère des Armées,Ministère,Défense,Détaillée prioritaire,0,0,6
+travail,Ministère du Travail,Ministère,Emploi,Détaillée prioritaire,0,0,6
+louvre,Musée du Louvre,Établissement public,Culture,Détaillée prioritaire,0,0,6
+mediateur_energie,Médiateur national de l'énergie,Autorité publique indépendante,Énergie,Détaillée prioritaire,0,0,6
+ofpra,OFPRA,Établissement public,Asile,Détaillée prioritaire,0,0,6
+ofii,Office français de l'immigration et de l'intégration,Établissement public,Immigration,Détaillée prioritaire,0,0,6
+onf,Office national des forêts,Établissement public,Forêts,Détaillée prioritaire,0,0,6
+opera_paris,Opéra national de Paris,Établissement public,Culture,Détaillée prioritaire,0,0,6
+presidence,Présidence de la République,Institution constitutionnelle,Exécutif,Détaillée prioritaire,0,0,6
+senat,Sénat,Institution constitutionnelle,Législatif,Détaillée prioritaire,0,0,6
+universcience,Universcience,Établissement public,Culture scientifique,Détaillée prioritaire,0,0,6
+anssi,ANSSI,Service à compétence nationale,Cybersécurité,Succincte,1,1,2
+bpifrance,Bpifrance,Société publique,Financement des entreprises,Succincte,1,1,2
+cour_comptes,Cour des comptes,Juridiction financière,Contrôle financier,Succincte,1,1,2
+insee,Insee,Direction d'administration centrale,Statistique publique,Succincte,1,1,2
+ademe,ADEME,Opérateur de l'État,Transition écologique,Détaillée prioritaire,1,1,1
+ansm,Agence nationale de sécurité du médicament,Établissement public,Santé,Détaillée prioritaire,1,1,1
+arcep,Arcep,Autorité administrative indépendante,Télécoms et postes,Détaillée prioritaire,1,1,1
+arcom,Arcom,Autorité publique indépendante,Numérique et médias,Détaillée prioritaire,1,1,1
+amf,Autorité des marchés financiers,Autorité publique indépendante,Finance,Détaillée prioritaire,1,1,1
+banque_france,Banque de France,Institution publique indépendante,Banque centrale,Détaillée prioritaire,1,1,1
+cnil,CNIL,Autorité administrative indépendante,Données personnelles,Détaillée prioritaire,1,1,1
+cnrs,CNRS,Opérateur de l'État,Recherche,Détaillée prioritaire,1,1,1
+cre,Commission de régulation de l'énergie,Autorité administrative indépendante,Énergie,Détaillée prioritaire,1,1,1
+france_travail,France Travail,Opérateur de l'État,Emploi,Détaillée prioritaire,1,1,1
+france_competences,France compétences,Établissement public,Formation professionnelle,Détaillée prioritaire,1,1,1
+hatvp,HATVP,Autorité administrative indépendante,Déontologie publique,Détaillée prioritaire,1,1,1
+has,Haute Autorité de santé,Autorité publique indépendante,Santé,Détaillée prioritaire,1,1,1
+meteo,Météo-France,Opérateur de l'État,Météorologie,Détaillée prioritaire,1,1,1
+ofb,Office français de la biodiversité,Établissement public,Biodiversité,Détaillée prioritaire,1,1,1
+sante_publique_france,Santé publique France,Établissement public,Santé publique,Détaillée prioritaire,1,1,1

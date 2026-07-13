@@ -1,1 +1,1 @@
-Conserver uniquement .git, supprimer le reste, copier tous les fichiers, Commit V2.4 - Relations et qualité des données, puis Push origin.
+Conserver uniquement .git, supprimer le reste, copier tous les fichiers. Commit conseillé : V2.7 - Comparateur et socle consolidé

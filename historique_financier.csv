@@ -1,0 +1,4 @@
+﻿entity_id,annee,indicateur,valeur,unite,source_url,qualite
+cnil,2024,Budget / ressources,0.0282,Md€,https://www.cnil.fr/sites/default/files/2025-04/rapport_annuel_2024.pdf,Officiel récent
+cnil,2024,Effectifs,298.0,ETPT,https://www.cnil.fr/sites/default/files/2025-04/rapport_annuel_2024.pdf,Officiel récent
+hatvp,2024,Budget / ressources,0.00982,Md€,https://www.hatvp.fr/la-haute-autorite/linstitution/organisation/,Officiel récent

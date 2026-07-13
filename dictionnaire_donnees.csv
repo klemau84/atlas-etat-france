@@ -1,0 +1,12 @@
+﻿fichier,champ,definition,type,statut
+entites.csv,entity_id,Identifiant stable de l'organisme,texte,obligatoire
+entites.csv,nom,Dénomination affichée,texte,obligatoire
+entites.csv,categorie,Catégorie institutionnelle,texte,obligatoire
+entites.csv,budget_mde,"Dernier budget intégré, en milliards d'euros",nombre,optionnel
+entites.csv,effectifs_etpt,"Dernier effectif intégré, en ETPT",nombre,optionnel
+fiches_detaillees.csv,dirigeant,Titulaire ou description prudente de la direction,texte,optionnel
+fiches_detaillees.csv,debut_mandat,Date ou année de début du mandat,texte,optionnel
+relations.csv,relation,Nature du lien entre deux organismes,texte,obligatoire
+historique_financier.csv,annee,Millésime de la valeur,entier,obligatoire
+historique_financier.csv,source_url,Source directe de la donnée,URL,obligatoire
+qualite_donnees.csv,completude_pct,Taux de présence des dimensions documentaires,pourcentage,calculé
