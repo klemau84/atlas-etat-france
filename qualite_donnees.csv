@@ -1,0 +1,101 @@
+﻿entity_id,nom,fiche_detaillee,budget,effectifs,dirigeant,rapport,chronologie,score_completude,completude_pct
+presidence,Présidence de la République,0,0,0,0,0,0,0,0.0
+gouvernement,Gouvernement,0,0,0,0,0,0,0,0.0
+assemblee,Assemblée nationale,0,0,0,0,0,0,0,0.0
+senat,Sénat,0,0,0,0,0,0,0,0.0
+conseil_constitutionnel,Conseil constitutionnel,0,0,0,0,0,0,0,0.0
+conseil_etat,Conseil d'État,0,0,0,0,0,0,0,0.0
+cour_cassation,Cour de cassation,0,0,0,0,0,0,0,0.0
+cour_comptes,Cour des comptes,1,0,0,1,0,1,3,50.0
+cese,"Conseil économique, social et environnemental",0,0,0,0,0,0,0,0.0
+defenseur,Défenseur des droits,0,0,0,0,0,0,0,0.0
+cnil,CNIL,1,1,1,1,1,1,6,100.0
+arcom,Arcom,1,0,0,1,1,1,4,66.7
+arcep,Arcep,1,0,0,1,0,0,2,33.3
+amf,Autorité des marchés financiers,1,0,0,1,1,0,3,50.0
+autorite_concurrence,Autorité de la concurrence,0,0,0,0,0,0,0,0.0
+hatvp,HATVP,1,1,0,1,1,0,4,66.7
+has,Haute Autorité de santé,1,0,0,1,0,0,2,33.3
+cre,Commission de régulation de l'énergie,1,0,0,1,0,0,2,33.3
+commission_sondages,Commission des sondages,0,0,0,0,0,0,0,0.0
+cndp,Commission nationale du débat public,0,0,0,0,0,0,0,0.0
+cglpl,Contrôleur général des lieux de privation de liberté,0,0,0,0,0,0,0,0.0
+cada,Commission d'accès aux documents administratifs,0,0,0,0,0,0,0,0.0
+cnccfp,CNCCFP,0,0,0,0,0,0,0,0.0
+cnctr,CNCTR,0,0,0,0,0,0,0,0.0
+anj,Autorité nationale des jeux,0,0,0,0,0,0,0,0.0
+afld,Agence française de lutte contre le dopage,0,0,0,0,0,0,0,0.0
+art,Autorité de régulation des transports,0,0,0,0,0,0,0,0.0
+acnusa,ACNUSA,0,0,0,0,0,0,0,0.0
+mediateur_energie,Médiateur national de l'énergie,0,0,0,0,0,0,0,0.0
+hceres,HCERES,0,0,0,0,0,0,0,0.0
+asnr,Autorité de sûreté nucléaire et de radioprotection,0,0,0,0,0,1,1,16.7
+interieur,Ministère de l'Intérieur,0,0,0,0,0,0,0,0.0
+justice,Ministère de la Justice,0,0,0,0,0,0,0,0.0
+armees,Ministère des Armées,0,0,0,0,0,0,0,0.0
+education,Ministère de l'Éducation nationale,0,0,0,0,0,0,0,0.0
+enseignement_superieur,Ministère de l'Enseignement supérieur et de la Recherche,0,0,0,0,0,0,0,0.0
+economie,Ministère de l'Économie et des Finances,0,0,0,0,0,0,0,0.0
+travail,Ministère du Travail,0,0,0,0,0,0,0,0.0
+sante,Ministère de la Santé,0,0,0,0,0,0,0,0.0
+ecologie,Ministère de la Transition écologique,0,0,0,0,0,0,0,0.0
+culture,Ministère de la Culture,0,0,0,0,0,0,0,0.0
+affaires_etrangeres,Ministère de l'Europe et des Affaires étrangères,0,0,0,0,0,0,0,0.0
+agriculture,Ministère de l'Agriculture,0,0,0,0,0,0,0,0.0
+dga,Direction générale de l'armement,0,0,0,0,0,0,0,0.0
+dgpn,Direction générale de la Police nationale,0,0,0,0,0,0,0,0.0
+dggn,Direction générale de la Gendarmerie nationale,0,0,0,0,0,0,0,0.0
+dgfip,Direction générale des Finances publiques,0,0,0,0,0,0,0,0.0
+dgddi,Direction générale des douanes et droits indirects,0,0,0,0,0,0,0,0.0
+insee,Insee,1,0,0,1,1,0,3,50.0
+aft,Agence France Trésor,0,0,0,0,0,0,0,0.0
+anssi,ANSSI,1,0,0,1,0,1,3,50.0
+dila,Direction de l'information légale et administrative,0,0,0,0,0,0,0,0.0
+dinum,Direction interministérielle du numérique,0,0,0,0,0,0,0,0.0
+ditp,Direction interministérielle de la transformation publique,0,0,0,0,0,0,0,0.0
+france_travail,France Travail,1,0,0,1,0,1,3,50.0
+cnrs,CNRS,1,0,0,1,0,0,2,33.3
+inserm,Inserm,0,0,0,0,0,0,0,0.0
+inrae,INRAE,0,0,0,0,0,0,0,0.0
+inria,Inria,0,0,0,0,0,0,0,0.0
+cea,Commissariat à l'énergie atomique et aux énergies alternatives,0,0,0,0,0,0,0,0.0
+cnes,Centre national d'études spatiales,0,0,0,0,0,0,0,0.0
+meteo,Météo-France,1,0,0,1,0,0,2,33.3
+ademe,ADEME,1,0,0,1,1,0,3,50.0
+anr,Agence nationale de la recherche,0,0,0,0,0,0,0,0.0
+ans,Agence du numérique en santé,0,0,0,0,0,0,0,0.0
+ansm,Agence nationale de sécurité du médicament,1,0,0,1,0,0,2,33.3
+sante_publique_france,Santé publique France,1,0,0,1,1,0,3,50.0
+anses,ANSES,0,0,0,0,0,0,0,0.0
+ofb,Office français de la biodiversité,1,0,0,1,1,0,3,50.0
+cerema,Cerema,0,0,0,0,0,0,0,0.0
+ign,Institut national de l'information géographique et forestière,0,0,0,0,0,0,0,0.0
+onf,Office national des forêts,0,0,0,0,0,0,0,0.0
+ofii,Office français de l'immigration et de l'intégration,0,0,0,0,0,0,0,0.0
+ofpra,OFPRA,0,0,0,0,0,0,0,0.0
+ants,Agence nationale des titres sécurisés,0,0,0,0,0,0,0,0.0
+anah,Agence nationale de l'habitat,0,0,0,0,0,0,0,0.0
+anru,Agence nationale pour la rénovation urbaine,0,0,0,0,0,0,0,0.0
+cnaf,Caisse nationale des allocations familiales,0,0,0,0,0,0,0,0.0
+cnam,Caisse nationale de l'Assurance maladie,0,0,0,0,0,0,0,0.0
+cnav,Caisse nationale d'assurance vieillesse,0,0,0,0,0,0,0,0.0
+urssaf_caisse_nationale,Urssaf Caisse nationale,0,0,0,0,0,0,0,0.0
+acoss,Agence centrale des organismes de sécurité sociale,0,0,0,0,0,0,0,0.0
+bpifrance,Bpifrance,1,0,0,1,0,0,2,33.3
+cdc,Caisse des dépôts et consignations,0,0,0,0,0,0,0,0.0
+banque_france,Banque de France,1,0,0,1,0,0,2,33.3
+france_competences,France compétences,1,0,0,1,0,0,2,33.3
+cnfpt,Centre national de la fonction publique territoriale,0,0,0,0,0,0,0,0.0
+insp,Institut national du service public,0,0,0,0,0,1,1,16.7
+ena_archive,École nationale d'administration,0,0,0,0,0,0,0,0.0
+louvre,Musée du Louvre,0,0,0,0,0,0,0,0.0
+bnf,Bibliothèque nationale de France,0,0,0,0,0,0,0,0.0
+universcience,Universcience,0,0,0,0,0,0,0,0.0
+centre_pompidou,Centre national d'art et de culture Georges-Pompidou,0,0,0,0,0,0,0,0.0
+opera_paris,Opéra national de Paris,0,0,0,0,0,0,0,0.0
+cnc,Centre national du cinéma et de l'image animée,0,0,0,0,0,0,0,0.0
+france_medias_monde,France Médias Monde,0,0,0,0,0,0,0,0.0
+france_televisions,France Télévisions,0,0,0,0,0,0,0,0.0
+radio_france,Radio France,0,0,0,0,0,0,0,0.0
+ina,Institut national de l'audiovisuel,0,0,0,0,0,0,0,0.0
+sncf_reseau,SNCF Réseau,0,0,0,0,0,0,0,0.0

@@ -1,0 +1,83 @@
+﻿source_id,cible_id,relation,niveau
+presidence,gouvernement,Nomme le Premier ministre,Constitutionnel
+gouvernement,assemblee,Responsable devant,Constitutionnel
+gouvernement,senat,Présente les projets de loi devant,Constitutionnel
+conseil_constitutionnel,assemblee,Contrôle les lois votées par,Contrôle
+conseil_constitutionnel,senat,Contrôle les lois votées par,Contrôle
+cour_comptes,assemblee,Assiste dans le contrôle des finances publiques,Contrôle
+cour_comptes,senat,Assiste dans le contrôle des finances publiques,Contrôle
+gouvernement,conseil_etat,Exerce la tutelle sur,Tutelle
+justice,cour_cassation,Exerce la tutelle sur,Tutelle
+gouvernement,cada,Exerce la tutelle sur,Tutelle
+gouvernement,interieur,Exerce la tutelle sur,Tutelle
+gouvernement,justice,Exerce la tutelle sur,Tutelle
+gouvernement,armees,Exerce la tutelle sur,Tutelle
+gouvernement,education,Exerce la tutelle sur,Tutelle
+gouvernement,enseignement_superieur,Exerce la tutelle sur,Tutelle
+gouvernement,economie,Exerce la tutelle sur,Tutelle
+gouvernement,travail,Exerce la tutelle sur,Tutelle
+gouvernement,sante,Exerce la tutelle sur,Tutelle
+gouvernement,ecologie,Exerce la tutelle sur,Tutelle
+gouvernement,culture,Exerce la tutelle sur,Tutelle
+gouvernement,affaires_etrangeres,Exerce la tutelle sur,Tutelle
+gouvernement,agriculture,Exerce la tutelle sur,Tutelle
+armees,dga,Exerce la tutelle sur,Tutelle
+interieur,dgpn,Exerce la tutelle sur,Tutelle
+interieur,dggn,Exerce la tutelle sur,Tutelle
+economie,dgfip,Exerce la tutelle sur,Tutelle
+economie,dgddi,Exerce la tutelle sur,Tutelle
+economie,insee,Exerce la tutelle sur,Tutelle
+economie,aft,Exerce la tutelle sur,Tutelle
+gouvernement,dila,Exerce la tutelle sur,Tutelle
+gouvernement,dinum,Exerce la tutelle sur,Tutelle
+gouvernement,ditp,Exerce la tutelle sur,Tutelle
+travail,france_travail,Exerce la tutelle sur,Tutelle
+enseignement_superieur,cnrs,Exerce la tutelle sur,Tutelle
+enseignement_superieur,inria,Exerce la tutelle sur,Tutelle
+gouvernement,cea,Exerce la tutelle sur,Tutelle
+ecologie,meteo,Exerce la tutelle sur,Tutelle
+ecologie,ademe,Exerce la tutelle sur,Tutelle
+enseignement_superieur,anr,Exerce la tutelle sur,Tutelle
+sante,ans,Exerce la tutelle sur,Tutelle
+sante,ansm,Exerce la tutelle sur,Tutelle
+sante,sante_publique_france,Exerce la tutelle sur,Tutelle
+ecologie,ofb,Exerce la tutelle sur,Tutelle
+ecologie,cerema,Exerce la tutelle sur,Tutelle
+ecologie,ign,Exerce la tutelle sur,Tutelle
+agriculture,onf,Exerce la tutelle sur,Tutelle
+interieur,ofii,Exerce la tutelle sur,Tutelle
+interieur,ofpra,Exerce la tutelle sur,Tutelle
+interieur,ants,Exerce la tutelle sur,Tutelle
+ecologie,anah,Exerce la tutelle sur,Tutelle
+travail,france_competences,Exerce la tutelle sur,Tutelle
+gouvernement,insp,Exerce la tutelle sur,Tutelle
+gouvernement,ena_archive,Exerce la tutelle sur,Tutelle
+culture,louvre,Exerce la tutelle sur,Tutelle
+culture,bnf,Exerce la tutelle sur,Tutelle
+culture,universcience,Exerce la tutelle sur,Tutelle
+culture,centre_pompidou,Exerce la tutelle sur,Tutelle
+culture,opera_paris,Exerce la tutelle sur,Tutelle
+culture,cnc,Exerce la tutelle sur,Tutelle
+gouvernement,france_medias_monde,Exerce la tutelle sur,Tutelle
+gouvernement,france_televisions,Exerce la tutelle sur,Tutelle
+gouvernement,radio_france,Exerce la tutelle sur,Tutelle
+culture,ina,Exerce la tutelle sur,Tutelle
+gouvernement,sncf_reseau,Exerce la tutelle sur,Tutelle
+cnil,arcom,Coordination sur les plateformes numériques,Coopération
+arcep,arcom,Coopération sur les réseaux et services numériques,Coopération
+has,ansm,Évaluation et sécurité des produits de santé,Coopération
+has,sante_publique_france,Coordination des politiques sanitaires,Coopération
+anssi,dinum,Cybersécurité des services numériques publics,Coopération
+insee,economie,Produit la statistique publique pour,Rattachement
+aft,economie,Gère la dette et la trésorerie pour,Rattachement
+france_travail,travail,Met en œuvre la politique de l'emploi de,Opérateur
+france_competences,travail,Régule la formation professionnelle pour,Opérateur
+ademe,ecologie,Met en œuvre les politiques de transition de,Opérateur
+ofb,ecologie,Met en œuvre les politiques de biodiversité de,Opérateur
+anr,enseignement_superieur,Finance la recherche pour,Opérateur
+cnrs,enseignement_superieur,Met en œuvre la politique de recherche de,Opérateur
+inserm,enseignement_superieur,Met en œuvre la recherche biomédicale de,Opérateur
+inrae,agriculture,Met en œuvre la recherche agronomique de,Opérateur
+cnc,culture,Met en œuvre la politique du cinéma de,Opérateur
+bnf,culture,Conserve le patrimoine documentaire pour,Opérateur
+louvre,culture,Met en œuvre la politique muséale de,Opérateur

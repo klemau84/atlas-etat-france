@@ -1,1 +1,1 @@
-Conserver uniquement .git, supprimer le reste, copier tous les fichiers, Commit V2.3 - Chronologies et rapports, puis Push origin.
+Conserver uniquement .git, supprimer le reste, copier tous les fichiers, Commit V2.4 - Relations et qualité des données, puis Push origin.
